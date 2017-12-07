@@ -14,9 +14,16 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
+## Publish
+
+Run `npm publish` to publish the module.
+
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+We can execute the unit tests via [Karma](https://karma-runner.github.io).
+Learn more about automated testing at the [angular.io](https://angular.io/guide/testing).  
+
+In this project, you can run the tests once (that is to say, without watching for file changes) by running `npm test`.  To leave the browser open and watch for changes, run `ng test` directly.
 
 ## Running end-to-end tests
 
