@@ -15,7 +15,7 @@
     "rebuild:lib": "npm run clean:lib && npm run build:lib",
     "copy:lib": "mkdir -p lib && cp -a src/app/. lib"
   },
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/patdaburu/daburu-angular-cmp-npm.git"
