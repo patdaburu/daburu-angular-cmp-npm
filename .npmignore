@@ -78,3 +78,6 @@ e2e
 karma.conf.js
 protractor.conf.js
 tslint.json
+
+# git files
+.gitkeep
