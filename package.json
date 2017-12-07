@@ -9,7 +9,6 @@
     "build": "ng build && npm run build:lib",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
     "clean:lib": "rm -rf lib",
     "build:lib": "npm run copy:lib",
     "rebuild:lib": "npm run clean:lib && npm run build:lib",
