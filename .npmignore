@@ -41,5 +41,40 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# npm pack output
-*.tgz
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+#tests
+test
+coverage
+.nyc_output
+
+#build tools
+.travis.yml
+.jenkins.yml
+.codeclimate.yml
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+
+#editor settings
+.idea
+.editorconfig
+
+#source files
+src
+
+#typescript
+tsconfig.json
+
+# node
+node_modules
+
+# Other items we don't include in the package.
+e2e
+.angular-cli.json
+.npmignore
+karma.conf.js
+protractor.conf.js
+tslint.json

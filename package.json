@@ -1,16 +1,31 @@
 {
   "name": "daburu-angular-cmp-npm",
-  "version": "0.0.0",
-  "license": "MIT",
+  "version": "1.0.0",
+  "license": "ISC",
   "scripts": {
+    "prepublish": "npm run lint && npm run build && npm run rebuild:lib",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && npm run build:lib",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "clean:lib": "rm -rf lib",
+    "build:lib": "npm run copy:lib",
+    "rebuild:lib": "npm run clean:lib && npm run build:lib",
+    "copy:lib": "mkdir -p lib && cp -a src/app/. lib"
   },
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patdaburu/daburu-angular-cmp-npm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/patdaburu/daburu-angular-cmp-npm/issues"
+  },
+  "homepage": "https://github.com/patdaburu/daburu-angular-cmp-npm#readme",
   "dependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
@@ -41,6 +56,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "npm-pack": "^1.0.0",
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
