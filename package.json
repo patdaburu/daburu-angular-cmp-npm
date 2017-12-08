@@ -1,6 +1,6 @@
 {
   "name": "daburu-angular-cmp-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "ISC",
   "scripts": {
     "prepublish": "npm run lint && npm run test && npm run build && npm run rebuild:lib",
@@ -58,7 +58,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "npm-pack": "^1.0.0",
-    "protractor": "~5.1.2",
+    "protractor": "^5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "tslint-sonarts": "^1.2.0",
