@@ -13,7 +13,7 @@ export class EchoService {
    */
   echo(msg: string, loud: boolean = false): string {
     if (!msg) {
-      return "";
+      return '';
     } else if (!loud) {
       return msg;
     } else {

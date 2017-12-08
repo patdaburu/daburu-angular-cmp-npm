@@ -1,4 +1,6 @@
-# DaburuAngularCmpNpm
+# daburu-angular-cmp-npm
+
+This is a template project containing the elements we need to build projects that produce npm modules containing reusable Angular components.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
@@ -32,3 +34,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Security
+
+### SonarTS
+
+This `tslint.json` file in this project extends the [SonarTs](https://www.sonarsource.com/products/codeanalyzers/sonarts.html#_) linter.
+
+From the [SonarSource] (https://www.sonarsource.com/) website:
+
+> SonarSource delivers what is probably the best static code analyzer you can find on the market for TypeScript. Based on Microsoft open-source TypeScript compiler front-end, it uses the most advanced techniques (pattern matching, program flow analysis) to analyze code and find code smells, bugs and security vulnerabilities.
+
+You can also install the [SonarQube Community Plugin](https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin) for Webstorm.
