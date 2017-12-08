@@ -10,7 +10,7 @@ describe('MyFirstComponentComponent', () => {
   let de: DebugElement;
   let el: HTMLElement;
 
-  // This is the first, aynchronous beforeEach.
+  // This is the first, asynchronous beforeEach.
   // Read more at: https://angular.io/guide/testing#the-first-asynchronous-beforeeach
   beforeEach(async(() => {
     TestBed.configureTestingModule({

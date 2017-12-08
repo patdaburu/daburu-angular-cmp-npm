@@ -52,6 +52,6 @@ describe('MySecondComponentComponent', () => {
   it('should display the message from the echo service', () => {
     fixture.detectChanges();
     // 'ECHO' is what the mock service always returns.
-    expect(el.textContent).toContain('ECHO');
+    expect(el.textContent).toContain('ECHO', 'We didn`t hear the echo.');
   });
 });
