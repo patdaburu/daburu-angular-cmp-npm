@@ -43,3 +43,6 @@ Thumbs.db
 
 # npm pack output
 *.tgz
+
+# Documentation
+docs
